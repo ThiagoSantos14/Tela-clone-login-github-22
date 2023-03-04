@@ -1,0 +1,506 @@
+@font-face {
+    src: url(yantramanav-thin-webfont.woff2);
+    font-family: "yantramanav";
+}
+
+.topo {
+    text-align: center;
+}
+
+h1 {    
+    font-family: "yantramanav";
+}
+
+a {
+    text-decoration: none;
+    color: #2d99f0;
+    display: inline;
+    padding-right: 30px;
+}
+
+.login {
+    text-align: center;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    margin-top: -70px;
+}
+
+fieldset {
+    border-radius: 10px;
+    margin: 100px;
+    margin-bottom: -50px;
+    padding-bottom: 40px;
+    max-width: 87%;
+    min-width: 330px;
+    background: whitesmoke;
+}
+
+.text-email {
+    margin-right: 90%;
+}
+
+input[type="email"] {
+    width: 300px;
+    height: 25px;
+    margin-right: 90%;
+    margin-bottom: 7%;
+    border-radius: 5px;
+}
+
+input[type="email"]:hover {
+    border: outset 3px rgb(10, 170, 233);
+    box-shadow: 1px 1px 3px rgb(10, 170, 233);
+}
+
+.text-senha {
+    margin-right: 98%;
+    margin-top: -7%;
+}
+
+.link-forgot {
+    margin-left: 25%;
+    margin-top: -7px;
+    display: block;
+    position: absolute;
+    overflow:auto
+}
+
+input[type="password"] {
+    width: 300px;
+    height: 25px;
+    margin-right: 90%;
+    border-radius: 5px;
+}
+
+input[type="password"]:hover {
+    border: outset 3px rgb(10, 170, 233);
+    box-shadow: 1px 1px 3px rgb(10, 170, 233);
+}
+
+input[type="submit"] {
+    margin-top: 10%;
+    margin-right: 90%;
+    width: 300px;
+    height: 30px;
+    background: rgb(43, 189, 60);
+    color: white;
+    border-radius: 5px;
+}
+
+.criar-conta {
+    width: 110%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.borda-criar-conta {
+    padding: 10px;
+    margin-right: 13%;
+    max-width: 77%;
+    min-width: 315px;
+}
+
+.rodape {
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.links {
+    white-space: nowrap;
+}
+
+span {
+    color: gray;
+}
+
+
+@media (max-width: 360px) {
+    body {
+        font-size: 30px;
+    }
+
+    img {
+        margin-left: 90px;
+        width: 200px;
+    }
+
+    .topo {
+        margin-left: 200px;
+        white-space: nowrap;
+    }
+
+    .fundo1 {
+        padding-right: 200px;
+    }
+
+    .login {
+        margin-left: 25px;
+    }
+
+    input[type="email"] {
+        width: 450px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    input[type="password"] {
+        width: 450px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    input[type="submit"] {
+        width: 450px;
+        height: 50px;
+        font-size: 30px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    .link-forgot {
+        margin-left: 240px;
+        margin-top: 7px;
+    }
+
+    .criar-conta {
+        margin-left: 30px;
+    }
+
+    .borda-criar-conta {
+        padding-left: 230px;
+    }
+
+    .text-novo-git {
+        margin-left: -200px;
+    }
+
+    .links {
+        margin-left: 80px;
+    }
+}
+
+
+@media (min-width: 450px) {
+    .topo {
+        margin-left: 200px;
+    }
+
+    .login {
+        margin-left: 40px;
+    }
+
+    .link-forgot {
+        margin-left: 190px;
+    }
+
+    .criar-conta {
+        margin-left: 40px;
+    }
+
+    .borda-criar-conta {
+        padding-left: 30px;
+    }
+
+    .text-novo-git {
+        margin-left: 10px;
+    }
+
+    .links {
+        margin-left: 105px;
+    }
+}
+
+@media (min-width: 600px) {
+    .topo {
+        margin-left: 10px;
+    }
+
+    .login {
+        margin-left: 150px;
+    }
+
+    fieldset {
+        margin-left: -10px;
+    }
+
+    .criar-conta {
+        margin-left: -57px;
+    }
+
+    .borda-criar-conta {
+        margin-left: 200px;
+    }
+
+    .links {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .login {
+        margin-left: 220px;
+    }
+
+    .fundo1 {
+        margin-right: 400px;
+    }
+
+    .link-forgot {
+        margin-top: -7px;
+    }
+
+    .criar-conta {
+        margin-left: -200px;
+    }
+
+    .borda-criar-conta {
+        margin-left: 410px;
+        padding-right: 10px;
+    }
+
+    .links {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .login {
+        margin-left: 350px;
+    }
+
+    .link-forgot {
+        margin-top: -6px;
+    }
+
+    .fundo1 {
+        margin-right: 330px;
+    }
+
+    .criar-conta {
+        margin-left: -139px;
+    }
+
+    .borda-criar-conta {
+        margin-left: 480px;
+        margin-right: 300px;
+        padding: 20px;
+    }
+
+    .text-novo-git {
+        margin-left: 40px;
+    }
+
+    .links {
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 1280px) {
+    body {
+        font-size: 20px;
+    }
+
+    .fundo1 {
+        margin-right: 700px;
+    }
+
+    .login {
+        margin-left: 470px;
+    }
+
+    .link-forgot {
+        margin-left: 155px;
+        margin-top: -3px;
+    }
+
+    input[type="submit"] {
+        font-size: 20px;
+    }
+
+    .criar-conta {
+        margin-left: -385px;
+        white-space: nowrap;
+    }
+
+    .borda-criar-conta {
+        margin-left: 850px;
+    }
+
+    .text-novo-git {
+        margin-left: 23px;
+    }
+
+    .links {
+        margin-left: -20px;
+    }
+
+    a {
+        padding: 7px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .topo {
+        margin-left: 40px;
+    }
+
+    .login {
+        margin-left: 530px;
+    }
+
+    .fundo1 {
+        margin-right: 800px;
+    }
+
+    .criar-conta {
+        margin-left: -380px;
+    }
+
+    .borda-criar-conta {
+        margin-left: 900px;
+    }
+
+    .links {
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .login {
+        margin-left: 560px;
+    }
+
+    .criar-conta {
+        margin-left: -355px;
+    }
+
+    .borda-criar-conta {
+        margin-left: 910px;
+    }
+
+    .links {
+        margin-left: -5px;
+    }
+}
+
+@media (min-width: 1920px) {
+    body {
+        font-size: 30px;
+    }
+
+    .login {
+        margin-left: 719px;
+    }
+
+    .fundo1 {
+        padding-right: 210px;
+        margin-right: 700px;
+    }
+
+    input[type="email"] {
+        width: 450px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    input[type="password"] {
+        width: 450px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    input[type="submit"] {
+        width: 450px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+
+    .link-forgot {
+        margin-top: 7px;
+        margin-left: 230px;
+    }
+
+    .criar-conta {
+        margin-left: -200px;
+    }
+
+    .borda-criar-conta {
+        margin-right: 620px;
+    }
+
+    .links {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 3840px) {
+    body {
+        font-size: 70px;
+    }
+
+    img {
+        width: 350px;
+    }
+
+    .topo {
+        margin-left: 300px;
+    }
+
+    .fundo1 {
+        padding-left: 90px;
+    }
+
+    .login {
+        margin-left: 1100px;
+        padding-bottom: 100px;
+    }
+
+    input[type="email"] {
+        width: 1500px;
+        height: 150px;
+        border-radius: 15px;
+        border: outset 5px black;
+    }
+
+    .link-forgot {
+        margin-left: 900px;
+        margin-top: -51px;
+    }
+    
+    input[type="password"] {
+        width: 1500px;
+        height: 150px;
+        border-radius: 15px;
+        border: outset 5px black;
+    }
+
+    input[type="submit"] {
+        width: 1500px;
+        height: 150px;
+        border-radius: 15px;
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+
+    .criar-conta {
+        margin-left: -450px;
+        padding-bottom: 50px;
+    }
+
+    .borda-criar-conta {
+        margin-left: 1540px;
+    }
+
+    .links {
+        margin-left: 330px;
+    }
+
+    a {
+        padding: 100px;
+    }
+}
+
+
+
